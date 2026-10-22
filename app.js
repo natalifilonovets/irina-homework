@@ -1,75 +1,99 @@
 const data=[
   [
-    "In the film, the ___ has a secret plan to destroy the city.",
-    "villain",
-    "thief",
-    "Персонаж фільму",
-    "Villain — злодій, лиходій: негативний персонаж історії. Thief — людина, яка краде; у цьому реченні йдеться про лиходія, що планує знищити місто.",
-    "злодій, лиходій"
+    "Please send your ___ by email if you need a copy of the document.",
+    "request",
+    "forecast",
+    "Прохання",
+    "Request — запит або прохання. Send a request означає «надіслати запит». Forecast — прогноз, тому тут не підходить.",
+    "запит, прохання"
   ],
   [
-    "She played the role so ___ that everyone believed her tears were real.",
-    "convincingly",
-    "quietly",
-    "Акторська майстерність",
-    "Convincingly — переконливо. Її гра була настільки переконливою, що всі повірили у справжність сліз. Quietly означає «тихо» й не передає цієї думки.",
-    "переконливо"
+    "The shop had sold out of bread, so I came home ___.",
+    "empty-handed",
+    "on my own",
+    "Порожні руки",
+    "Empty-handed — з порожніми руками: без того, що хотіли принести чи отримати. On my own — самостійно або на самоті; тут важливо, що хліб купити не вдалося.",
+    "з порожніми руками"
   ],
   [
-    "A ___ stole my wallet on the bus and ran away.",
-    "thief",
-    "villain",
-    "Крадіжка в автобусі",
-    "Thief — крадій, людина, яка краде (у вашому списку — «грабіжник»). Тут слово stole прямо вказує на крадіжку. Villain — лиходій або негативний персонаж.",
-    "грабіжник; точніше — крадій"
+    "You see a strange object and ask: “___”",
+    "What on earth is that?",
+    "What is the weather like?",
+    "Незвичний предмет",
+    "What on earth is that? — «Що це взагалі таке?» On earth підсилює здивування. What is the weather like? — запитання про погоду.",
+    "Що це взагалі таке?"
   ],
   [
-    "He was married, but he was having an ___ with a colleague.",
-    "affair",
-    "argument",
-    "Таємні стосунки",
-    "Affair — роман, інтрижка; having an affair означає мати роман, часто таємний або позашлюбний. Argument — суперечка.",
-    "роман, інтрижка"
+    "A stranger walks into your locked office. In shock, you ask: “___”",
+    "Who on earth are you?",
+    "How are you?",
+    "Несподіваний незнайомець",
+    "Who on earth are you? — «Хто ти взагалі такий?» On earth передає сильне здивування або обурення, тому запитання може звучати різко. How are you? означає «Як справи?».",
+    "Хто ти взагалі такий?"
   ],
   [
-    "Let’s ___ the birthday present so she won’t find it.",
-    "hide",
-    "find",
-    "Подарунок-сюрприз",
-    "Hide — ховати. Подарунок потрібно сховати, щоб вона його не знайшла. Find означає «знайти». Після let’s вживаємо початкову форму дієслова.",
-    "ховати"
+    "They ___ that their product is the best, but they offer no evidence.",
+    "claim",
+    "request",
+    "Твердження без доказів",
+    "Claim у цьому реченні — стверджувати, заявляти: claim that… — «стверджувати, що…». Request — просити або запитувати. В інших контекстах claim може означати «вимагати», а як іменник — «вимога» чи «твердження».",
+    "стверджувати, заявляти"
   ],
   [
-    "We have only five minutes, so let’s ___ and discuss the price.",
-    "cut to the chase",
-    "change your mind",
-    "Ділова розмова",
-    "Cut to the chase — перейти до справи, одразу говорити про головне. Часу мало, тому співрозмовники переходять до ціни. Change your mind — передумати.",
-    "перейти до справи"
+    "The new rules are ___ than the old ones: the penalties are much higher.",
+    "tougher",
+    "easier",
+    "Суворіші правила",
+    "Tougher — вищий ступінь порівняння від tough. Про правила це «суворіші» або «жорсткіші»; про завдання — «складніші». Than означає «ніж». Easier — легші.",
+    "жорсткіші, суворіші; складніші"
   ],
   [
-    "If the argument gets out of control, the teacher will ___ and stop it.",
-    "step in",
-    "hide",
-    "Втручання в суперечку",
-    "Step in — втручатися, щоб допомогти або владнати ситуацію. Учитель втрутиться, якщо суперечка вийде з-під контролю. Hide — ховати або ховатися.",
-    "втручатися"
+    "She started her own company and became a successful ___.",
+    "entrepreneur",
+    "employee",
+    "Власна справа",
+    "Entrepreneur — підприємець або підприємиця: людина, яка створює та розвиває власний бізнес. Правильне написання — entrepreneur. Employee — найманий працівник.",
+    "підприємець, підприємиця"
   ],
   [
-    "The car is worth $10,000. Don’t ___ me by offering just $2,000.",
-    "lowball",
-    "convince",
-    "Занижена пропозиція",
-    "Lowball — запропонувати навмисно занижену ціну або суму. Тут за автомобіль вартістю 10 000 доларів пропонують лише 2 000. Це може бути спробою обманути, але слово не означає «принизити» загалом. Convince — переконати.",
-    "навмисно занижувати ціну або пропозицію"
+    "“You don’t need to help me. ___,” she said.",
+    "I will do it on my own",
+    "I will ask you to do it",
+    "Самостійна робота",
+    "I will do it on my own — «Я зроблю це сама / сам». On my own тут означає «самостійно, без допомоги». Другий варіант означає «Я попрошу тебе це зробити» й суперечить першій фразі.",
+    "я зроблю це сама / сам"
   ],
   [
-    "You said you didn’t want to come, but you can still ___ and join us.",
-    "change your mind",
-    "cut to the chase",
-    "Зміна рішення",
-    "Change your mind — передумати, змінити своє рішення. Людина спочатку відмовилася, але ще може погодитися. Cut to the chase — перейти до справи.",
-    "передумати"
+    "I don’t want to hide my opinion. I want to ___.",
+    "speak my mind",
+    "change my mind",
+    "Власна думка",
+    "Speak my mind — відверто висловити свою думку, сказати те, що думаю. Change my mind — змінити своє рішення або думку. Після want to вживаємо початкову форму дієслова.",
+    "відверто висловити свою думку"
+  ],
+  [
+    "The tree’s ___ absorb water from the soil.",
+    "roots",
+    "leaves",
+    "Частини дерева",
+    "Roots — коріння: саме воно поглинає воду з ґрунту. Root — один корінь, roots — множина. Leaves — листя. У переносному значенні roots також означає походження або родинне коріння.",
+    "коріння"
+  ],
+  [
+    "We need to ___ a new idea for the project.",
+    "come up with",
+    "give up on",
+    "Нова ідея",
+    "Come up with — придумати, запропонувати ідею або рішення. Вираз вживається разом із with: come up with an idea. Give up on — відмовитися від чогось або перестати вірити в успіх.",
+    "придумати"
+  ],
+  [
+    "Check the ___ to see whether it will rain tomorrow.",
+    "weather forecast",
+    "weather report from yesterday",
+    "Погода на завтра",
+    "Weather forecast — прогноз погоди: повідомлення про очікувану погоду. У реченні йдеться про завтрашній дощ. Weather report from yesterday — учорашнє зведення про погоду.",
+    "прогноз погоди"
   ]
 ];
 let order=data.map((_,i)=>i),pos=0,answers={},layout={};
